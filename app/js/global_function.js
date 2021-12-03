@@ -1,4 +1,4 @@
-	function Load() // função para para motrar carregamendo do programa
+	function Load() // função para para mostrar carregamendo do programa
 {
 	document.getElementById("load").style.display = "block";
 	document.getElementById("animation").style.display = "block";
