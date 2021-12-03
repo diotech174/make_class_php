@@ -1,0 +1,59 @@
+<div id="border-msg" style="width: 100%; height: 100%; top: 0; left: 0; position: absolute; background-color: #FFFFFF; opacity: 0.5; display: none;">
+	<!--Borda lateral oculta para bloquear controles de outra camada-->
+</div>
+<div id="MessageBox"  style="width: 40%; height: auto; position: absolute; top: 30%; left: 30%; background-color: #FFFFFF; border: 1px solid #2E2E2E; display: none;">
+	<div style="width: 100%; height: auto; background-color: #2E2E2E; color: #FFFFFF; text-align: right; padding: 5px;">
+		<table width="100%" align="center">
+			<tr>
+				<td align="left">
+					<font face="Open Sans" size="4">&emsp;MENSAGEM</font>
+				</td>
+				<td>
+					<span id="close" style="margin-top: 0.5%; font-size: 25px; color: #FA5858; cursor: pointer;" class="glyphicon glyphicon-remove-sign"></span>
+				</td>
+			</tr>
+		</table>		
+	</div>
+	<br>
+	<p align="center">
+		<font id="msg" face="Open Sans" size="4"></font>
+	</p>
+	<br>
+	<p align="center">
+		<button id="ButtonOK" class="btn btn-default">OK</button>
+	</p>
+</div>
+
+<!--Diálogo para confirmação do logout-->
+<div id="border-dialog" hidden style="width: 100%; height: 100%; top: 0; left: 0; position: absolute; background-color: #FFFFFF; opacity: 0.5;">
+	<!--Borda lateral oculta para bloquear controles de outra camada-->
+</div>
+<div id="DialogBox" hidden style="width: 40%; height: auto; position: absolute; top: 30%; left: 30%; background-color: #FFFFFF; border: 1px solid #2E2E2E">
+	<div style="width: 100%; height: auto; background-color: #2E2E2E; color: #FFFFFF; text-align: right; padding: 5px;">
+		<table width="100%" align="center">
+			<tr>
+				<td align="left">
+					<font face="Open Sans" size="4">&emsp;CONFIRME</font>
+				</td>
+				<td>
+					<span id="CloseDialog" style="margin-top: 0.5%; font-size: 25px; color: #FA5858; cursor: pointer;" class="glyphicon glyphicon-remove-sign"></span>
+				</td>
+			</tr>
+		</table>		
+	</div>
+	<br>
+	<p align="center">
+		<font id="msg_dialog" face="Open Sans" size="4"></font>
+	</p>
+	<br>
+	<table align="center">
+		<tr>
+			<td style="padding: 5px">
+				<button id="btnSim" class="btn btn-default">SIM</button>
+			</td>
+			<td style="padding: 5px">
+				<button id="btnNao" class="btn btn-default">NÃO</button>
+			</td>
+		</tr>
+	</table>
+</div>
